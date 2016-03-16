@@ -29,7 +29,7 @@
         self.backgroundColor = [UIColor clearColor];
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         self.textLabel.textColor = [UIColor whiteColor];
-        self.textLabel.backgroundColor = [UIColor redColor];
+//        self.textLabel.backgroundColor = [UIColor redColor];
         self.textLabel.numberOfLines = 0;
         self.textLabel.textAlignment = NSTextAlignmentCenter;
     }

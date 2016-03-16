@@ -388,7 +388,6 @@
 		E45BBA941C94567C007ACDF3 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E47004441C96B1E4005FABA5 /* DRNRealTimeBlur */,
 				E45BBAAB1C945CA9007ACDF3 /* Lib */,
 				E45BBA9B1C945747007ACDF3 /* Category */,
 				E45BBA9C1C945747007ACDF3 /* Tool */,
@@ -437,6 +436,7 @@
 		E45BBAAB1C945CA9007ACDF3 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				E47004441C96B1E4005FABA5 /* DRNRealTimeBlur */,
 				E45BBACF1C946447007ACDF3 /* Colours */,
 				E45BBAAC1C945CB1007ACDF3 /* MJExtension */,
 			);
@@ -488,7 +488,8 @@
 				E47004471C96B1E4005FABA5 /* UIImage+BoxBlur.h */,
 				E47004481C96B1E4005FABA5 /* UIImage+BoxBlur.m */,
 			);
-			path = DRNRealTimeBlur;
+			name = DRNRealTimeBlur;
+			path = ../DRNRealTimeBlur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

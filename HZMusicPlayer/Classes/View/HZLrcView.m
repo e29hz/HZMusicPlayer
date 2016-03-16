@@ -49,18 +49,19 @@
 {
     // 1.添加表格控件
     UITableView *tableView = [[UITableView alloc] init];
-    tableView.backgroundColor = [UIColor clearColor];
-    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+
+
+    [self addSubview:tableView];
     tableView.delegate = self;
     tableView.dataSource = self;
-    [self addSubview:tableView];
     self.tableView = tableView;
 }
 
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.backgroundColor = [UIColor clearColor];
     self.tableView.frame = self.bounds;
     self.tableView.contentInset = UIEdgeInsetsMake(self.tableView.height * 0.5, 0, self.tableView.height * 0.5, 0);
 }
